@@ -1,0 +1,55 @@
+﻿{
+  "$schema": "",
+  "basePath": "./Libraries",
+  "locale": "en-US",
+  "scaleMode": "None",
+  "startupView": "Desktop.view",
+  "loginPage": null,
+  "tcHmiServer": {
+    "websocketIntervalTime": 200,
+    "websocketTimeout": 10000,
+    "websocketSubscriptionMode": "Change"
+  },
+  "activeTheme": "",
+  "themes": {
+    "Base": {
+      "resources": [
+        {
+          "name": "Themes/Base/Base.theme",
+          "description": "",
+          "type": "ThemedValues"
+        }
+      ],
+      "replacesThemeForControls": []
+    }
+  },
+  "dependencyFiles": [],
+  "userControls": [],
+  "content": [],
+  "views": [
+    {
+      "url": "Desktop.view",
+      "preload": false
+    }
+  ],
+  "userFunctions": [
+    {
+      "url": "Scripts/FilterCombo.js"
+    }
+  ],
+  "symbols": {
+    "internal": {}
+  },
+  "trigger": null,
+  "actionTemplates": [],
+  "languages": {
+    "de-DE": "Localization\\de-DE.localization",
+    "en-US": "Localization\\en-US.localization"
+  },
+  "creatorSettings": {
+    "viewport": {
+      "defaultWidth": 800,
+      "defaultHeight": 600
+    }
+  }
+}

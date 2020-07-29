@@ -1,0 +1,28 @@
+﻿{
+  "function": {
+    "name": "FilterCombo",
+    "displayName": "FilterCombo",
+    "visible": true,
+    "category": "",
+    "waitMode": "Synchronous",
+    "injectContextObject": false,
+    "description": "",
+    "returnValue": {
+      "type": "tchmi:general#/definitions/Array"
+    },
+    "arguments": [
+      {
+        "name": "data",
+        "displayName": "data",
+        "type": "tchmi:general#/definitions/Array",
+        "description": "",
+        "defaultValue": "",
+        "required": true,
+        "bindable": true,
+        "restParameter": false,
+        "asReference": false
+      }
+    ]
+  },
+  "$schema": "C:/TwinCAT/Functions/TE2000-HMI-Engineering/Infrastructure/TcHmiFramework/Latest/Schema/FunctionDescription.Schema.json"
+}

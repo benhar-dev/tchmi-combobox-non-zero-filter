@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.4">
+  <POU Name="MAIN" Id="{6a67ccf9-1350-49dc-aaeb-2456c464c450}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	aComboboxEntries : ARRAY [1..9] OF ST_ComboboxEntry;
+	aTexts : ARRAY [1..5] OF STRING := ['Text 1','Text 2','Text 3','Text 4','Text 5'];
+	bIni: BOOL := TRUE;
+	nCounter: INT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[// set the Combobox entries in the first cycle
+IF bIni THEN
+	FOR nCounter := 1 TO 5 DO
+		aComboboxEntries[nCounter].id := nCounter;
+		aComboboxEntries[nCounter].text := CONCAT('Array entry ', INT_TO_STRING(nCounter));
+		aComboboxEntries[nCounter].value := nCounter * 10;
+	END_FOR
+	
+	FOR nCounter := 6 TO 9 DO
+		aComboboxEntries[nCounter].id := nCounter;
+		aComboboxEntries[nCounter].text := CONCAT('Array entry ', INT_TO_STRING(nCounter));
+		aComboboxEntries[nCounter].value := 0;
+	END_FOR
+	
+	bIni := FALSE;
+END_IF]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="28" Count="0" />
+      <LineId Id="2" Count="0" />
+      <LineId Id="10" Count="1" />
+      <LineId Id="14" Count="1" />
+      <LineId Id="12" Count="0" />
+      <LineId Id="36" Count="0" />
+      <LineId Id="38" Count="3" />
+      <LineId Id="37" Count="0" />
+      <LineId Id="16" Count="1" />
+      <LineId Id="8" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

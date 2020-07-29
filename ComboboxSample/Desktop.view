@@ -1,0 +1,115 @@
+﻿<div id="Desktop" data-tchmi-view="" data-tchmi-type="tchmi-view" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="1920" data-tchmi-height="1080" data-tchmi-background-image="Images/Background.png" data-tchmi-background-image-height="100" data-tchmi-background-image-width="100" data-tchmi-background-image-height-unit="%" data-tchmi-background-image-width-unit="%">
+
+    <div id="ViewDesktopBeckhoffLogo" data-tchmi-type="tchmi-image" data-tchmi-image="" data-tchmi-src="Images/Beckhoff_Logo.svg" data-tchmi-width="194" data-tchmi-height="57" data-tchmi-left="20" data-tchmi-top="20">
+
+    </div>
+
+    <div id="TcHmiCombobox" data-tchmi-zindex="2" data-tchmi-type="tchmi-combobox" data-tchmi-combobox="" data-tchmi-combobox-text="Select" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-top="126" data-tchmi-top-unit="px" data-tchmi-width="264" data-tchmi-width-unit="px">
+
+
+        <script data-tchmi-target-attribute="data-tchmi-src-data" type="application/json">[
+  {
+    "id": 1,
+    "value": "10",
+    "text": "Entry 1"
+  },
+  {
+    "id": 2,
+    "value": "20",
+    "text": "Entry 2"
+  },
+  {
+    "id": 3,
+    "value": "30",
+    "text": "Entry 3"
+  },
+  {
+    "id": 4,
+    "value": "40",
+    "text": "Entry 4"
+  },
+  {
+    "id": 5,
+    "value": "50",
+    "text": "Entry 5"
+  }
+]</script>
+    </div>
+
+    <div id="TcHmiTextblock" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="Based on a configuration in the engineering:" data-tchmi-top="90" data-tchmi-top-unit="px" data-tchmi-width="264" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+    <div id="TcHmiCombobox_1" data-tchmi-zindex="1" data-tchmi-type="tchmi-combobox" data-tchmi-combobox="" data-tchmi-combobox-text="Select" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-top="409" data-tchmi-top-unit="px" data-tchmi-width="264" data-tchmi-width-unit="px" data-tchmi-src-data="%s%PLC1.MAIN.aComboboxEntries%/s%">
+
+    </div>
+
+    <div id="TcHmiTextblock_1" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="52" data-tchmi-height-unit="px" data-tchmi-left="294" data-tchmi-left-unit="px" data-tchmi-text="Based on an array of a simple data type (in this case a string):" data-tchmi-top="333" data-tchmi-top-unit="px" data-tchmi-width="264" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+    <div id="TcHmiTextblock_3" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="%f%'Selected Index: '+%ctrl%TcHmiCombobox::SelectedIndex%/ctrl%%/f%" data-tchmi-top="162" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+    <div id="TcHmiTextblock_4" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="%f%'Selected Text: '+%ctrl%TcHmiCombobox::SelectedText%/ctrl%%/f%" data-tchmi-top="198" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+    <div id="TcHmiTextblock_5" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="%f%'Selected Value: '+%ctrl%TcHmiCombobox::SelectedValue%/ctrl%%/f%" data-tchmi-top="234" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+    <div id="TcHmiTextblock_7" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="%f%'Selected Index: '+%ctrl%TcHmiCombobox_1::SelectedIndex%/ctrl%%/f%" data-tchmi-top="445" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+    <div id="TcHmiTextblock_8" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="%f%'Selected Text: '+%ctrl%TcHmiCombobox_1::SelectedText%/ctrl%%/f%" data-tchmi-top="481" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+    <div id="TcHmiTextblock_9" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="%f%'Selected Value: '+%ctrl%TcHmiCombobox_1::SelectedValue%/ctrl%%/f%" data-tchmi-top="517" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+    <div id="TcHmiCombobox_3" data-tchmi-zindex="1" data-tchmi-type="tchmi-combobox" data-tchmi-combobox="" data-tchmi-combobox-text="Select" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="294" data-tchmi-left-unit="px" data-tchmi-top="409" data-tchmi-top-unit="px" data-tchmi-width="264" data-tchmi-width-unit="px" data-tchmi-src-data="%s%PLC1.MAIN.aTexts%/s%">
+
+    </div>
+
+    <div id="TcHmiTextblock_10" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="66" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="Based on an array of a structure, which represents the structure of a list entry with an id, a text and a value member:" data-tchmi-top="333" data-tchmi-top-unit="px" data-tchmi-width="264" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+    <div id="TcHmiTextblock_12" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="294" data-tchmi-left-unit="px" data-tchmi-text="%f%'Selected Index: '+%ctrl%TcHmiCombobox_3::SelectedIndex%/ctrl%%/f%" data-tchmi-top="445" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+    <div id="TcHmiTextblock_13" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="294" data-tchmi-left-unit="px" data-tchmi-text="%f%'Selected Text: '+%ctrl%TcHmiCombobox_3::SelectedText%/ctrl%%/f%" data-tchmi-top="481" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+    <div id="TcHmiTextblock_14" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="294" data-tchmi-left-unit="px" data-tchmi-text="%f%'Selected Value: '+%ctrl%TcHmiCombobox_3::SelectedValue%/ctrl%%/f%" data-tchmi-top="517" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+<div id="TcHmiCombobox_4" data-tchmi-zindex="1" data-tchmi-type="tchmi-combobox" data-tchmi-combobox="" data-tchmi-combobox-text="Select" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="568" data-tchmi-left-unit="px" data-tchmi-top="408" data-tchmi-top-unit="px" data-tchmi-width="264" data-tchmi-width-unit="px" data-tchmi-src-data="%f%FilterCombo(%s%PLC1.MAIN.aComboboxEntries%/s%)%/f%">
+
+    </div>
+
+<div id="TcHmiTextblock_15" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="568" data-tchmi-left-unit="px" data-tchmi-text="%f%'Selected Index: '+ %ctrl%TcHmiCombobox_4::SelectedIndex%/ctrl%%/f%" data-tchmi-top="444" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+<div id="TcHmiTextblock_16" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="568" data-tchmi-left-unit="px" data-tchmi-text="%f%'Selected Text: '+ %ctrl%TcHmiCombobox_4::SelectedText%/ctrl%%/f%" data-tchmi-top="480" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+<div id="TcHmiTextblock_17" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="568" data-tchmi-left-unit="px" data-tchmi-text="%f%'Selected Value: '+%ctrl%TcHmiCombobox_4::SelectedValue%/ctrl%%/f%" data-tchmi-top="516" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+<div id="TcHmiTextblock_18" data-tchmi-type="tchmi-textblock" data-tchmi-textblock="" data-tchmi-height="66" data-tchmi-height-unit="px" data-tchmi-left="568" data-tchmi-left-unit="px" data-tchmi-text="Based on an array of a structure, which represents the structure of a list entry with an id, a text and a value member preprocessed by a function which filters any values of 0:" data-tchmi-top="332" data-tchmi-top-unit="px" data-tchmi-width="264" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+
+    </div>
+
+</div>
